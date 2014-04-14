@@ -9,6 +9,9 @@ jar {
     }
 }
 
+apply plugin:'application'
+mainClassName = "be.nuytsm.LdapQuerierGradle.view.GuiStarter"
+
 repositories {
     mavenCentral()
 }
